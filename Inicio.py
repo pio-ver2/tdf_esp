@@ -110,7 +110,3 @@ if st.button("🔍 **Analizar**", type="primary"):
             st.info(f"📈 **Similitud:** {best_score:.3f}")
         else:
             st.warning("No se encontró una respuesta clara.")
-
-        else:
-            st.warning(f"**Respuesta (baja confianza):** {best_doc}")
-            st.info(f"📉 Similitud: {best_score:.3f}")
